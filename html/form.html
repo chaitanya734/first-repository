@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Form</title>
+  <script type="text/javascript">
+    function chaitanya() {
+      // Get the value from the "Name" input box
+      var ax = document.getElementById("first").value; 
+      
+      // Display the value in an alert
+      window.alert(ax);
+      
+      // Set the value dynamically to the second input box
+      document.getElementById("second").value = ax;
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <h1>Register Form</h1><br>
+    Name: <input id="first" type="text" /><br><br>
+    Surname: <input type="text" /><br><br>
+    Email: <input type="email" /><br><br>
+    Phone Number: <input type="text" /><br><br>
+    Emp ID: <input type="text" /><br><br>
+    <input type="button" value="Onclick" onclick="chaitanya()" /><br><br>
+    <input id="second" type="text" placeholder="Value will appear here" />
+  </form>
+</body>
+</html>

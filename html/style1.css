@@ -1,0 +1,27 @@
+
+    body{
+       background-color:pink;
+        }
+    h1{
+      color:black;
+      background-color:green;
+      }
+   #chitu
+{
+   text-align:center;
+   color:blue;
+  background-color:white;
+ margin:4px;
+}
+ .chitu
+{
+   text-align:center;
+   color:black;
+  background-color:white;
+}
+h1 p{
+     coloe:green;
+     background-color:blue;
+     text-align:center;
+}
+

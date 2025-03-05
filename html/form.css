@@ -1,0 +1,15 @@
+#title{
+  text-align:center;
+}
+  #fname{
+     width:40px;
+}
+#mname{
+      margin-top:10x;
+      text-align:center;
+    color:red;
+}
+#lname{
+      margin-top:10px;
+      text-align:right;
+}

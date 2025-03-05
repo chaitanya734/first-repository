@@ -1,0 +1,8 @@
+<!doctype>
+ <html>
+ <head>
+  <title style="text-transform:uppercase"> registration FORM </title>
+ </head>
+<body>
+</body>
+</html>
