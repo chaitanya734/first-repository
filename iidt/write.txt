@@ -1,0 +1,55 @@
+import java.io.*;
+import java.lang.*;
+class filewrite{
+
+ public static void main(String args[]) throws Exception
+{
+   FileReader fr = new FileReader("C:\\Users\\HP\\OneDrive\\Desktop\\iidt\\write.txt");
+   BufferedReader br = new BufferedReader(fr);
+   String s1;
+   int i=0;
+   while((s1=br.readLine())!=null)
+    {
+      
+    }
+  FileWriter fw = new FileWriter("C:\\Users\\HP\\OneDrive\\Desktop\\iidt\\rite.txt");
+ BufferedWriter bw = new BufferedWriter(fw);
+  bw.write(s1);
+  br.close();
+  fr.close();
+  bw.close();
+  fw.close();
+    
+ }
+}
+
+C:\Users\HP\OneDrive\Desktop\javaPrograms>java filewrite
+Exception in thread "main" java.lang.NullPointerException
+        at java.base/java.io.Writer.write(Unknown Source)
+        at filewrite.main(filewrite.java:17)
+how to solve
+ChatGPT
+The NullPointerException in your code occurs because you are trying to write the value of s1 outside the while loop, where s1 might be null if the end of the file has been reached. To solve this issue, you should move the writing of s1 inside the while loop. Here's the corrected code:
+
+java
+Copy code
+import java.io.*;
+
+class filewrite {
+    public static void main(String args[]) throws Exception {
+        FileReader fr = new FileReader("C:\\Users\\HP\\OneDrive\\Desktop\\iidt\\write.txt");
+        BufferedReader br = new BufferedReader(fr);
+        String s1;
+        FileWriter fw = new FileWriter("C:\\Users\\HP\\OneDrive\\Desktop\\iidt\\rite.txt");
+        BufferedWriter bw = new BufferedWriter(fw);
+        while ((s1 = br.readLine()) != null) {
+            bw.write(s1);
+            bw.newLine(); // Add a new line after each line read from the file
+        }
+        br.close();
+        fr.close();
+        bw.close();
+        fw.close();
+    }
+}
+In this corrected code, bw.write(s1); is inside the while loop to ensure that it's only called when s1 is not null, and bw.newLine(); is added to write a new line after each line read from the file.

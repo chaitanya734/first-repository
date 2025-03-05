@@ -1,0 +1,12 @@
+abstract class test
+{
+  abstract void add();
+}
+class Chaitanya
+{
+  public static void main(String args[])
+{
+   test t = ()->System.out.println("hai");
+  t.add();
+}
+}

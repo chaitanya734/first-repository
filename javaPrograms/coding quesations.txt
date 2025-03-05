@@ -1,0 +1,68 @@
+1.Find the largest number among the three numbers.
+2. Write a Program to check whether a number is prime or not.
+3. Write a C program to calculate Compound Interest.
+Write a Program in C to Swap the values of two variables without using any extra variable.
+6. Write a Program to convert the binary number into a decimal number.
+7.  Write a Program to check if the year is a leap year or not.
+8. Write a program to Factorial of a Number.
+9. Write a Program to Check if a number is an Armstrong number or not.
+10. Write a program to Find all the roots of a quadratic equation in C.
+11. Write a Program to reverse a number.
+12. Check whether a number is a palindrome.
+13. Write a C Program to check if two numbers are equal without using the bitwise operator. 
+15. Write a  C program to find the LCM of two numbers.
+14. Write a  C program to find the GCD of two numbers.
+16. Write a C Program to find the Maximum and minimum of two numbers without using any loop or condition. 
+17. Write a Program in C to Print all natural numbers up to N without using a semi-colon.
+18. Write a Program to find the area of a circle.
+19.  Write a Program to create a pyramid pattern using C.
+    *
+   ***
+  *****
+ *******
+*********
+20. Write a program to form Pascal Triangle using numbers.
+        1   
+      1   1   
+    1   2   1   
+  1   3   3   1   
+1   4   6   4   1
+
+22. Write a program to reverse an Array.
+
+23. Write a program to check the repeating elements in C.
+
+25. Write a Program for the cyclic rotation of an array to k positions.
+
+26. Write a Program to sort First half in Ascending order and the Second in Descending order.
+
+
+27. Write a Program to print sums of all subsets in an array.
+
+29. Write a C program to Implement Kadane’s Algorithm
+
+30. Write a Program to find the transpose of a matrix.
+
+33. Write a program to count the sum of numbers in a string.
+
+34. Program to calculate the length of the string.
+
+35. Write a program to check string is a palindrome.
+
+38. Write a Code to print the Fibonacci series using recursion.
+
+39. Write a Program to find the HCF of two Numbers using Recursion.
+
+40. Write a Program in C to reverse a string using recursion.
+
+41.  Write a C Program to search elements in an array.
+
+42.  Write a C Program to search elements in an array using Binary Search.
+
+43. Write a C Program to sort arrays using Bubble, Selection, and Insertion Sort.
+
+44. Write a C Program to sort arrays using Merge Sort.
+
+45. Write a C Program to sort arrays using Quick Sort.
+
+50. Write a C program to reverse a linked list iteratively
